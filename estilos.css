@@ -1,0 +1,130 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #dce9f6;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    font-size: 12px;
+}
+
+p{
+    line-height: 18px;
+}
+
+h1, h2{
+    margin: 0px;
+    letter-spacing: -1px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    background-color: #ffffff;
+    color: #eebb12;
+}
+
+a:visited{
+    background-color: #ffffff;
+}
+
+a:hover{
+    background-color: #ffffff;
+    color: #45a343;
+}
+
+#contenedor{
+    border-left: #333333 4px solid;
+    border-right: #333333 4px solid;
+    background-color: #ffffff;
+    margin: auto; /* Para que este Centrado */
+    width: 760px;
+    color: #666669;
+}
+
+header{
+    height: 50px;
+    color: #eebb12;
+    background-color: #2246a8;
+    padding: 20px 0px 0px 25px;
+    border-top: 4px solid #333333;
+    border-bottom: 4px solid #333333;
+}
+
+header h1 a{
+    font-size: 33px;
+    text-decoration: none;
+}
+
+header h1 a:link{
+    background-color: #2246a8;
+    color: #eebb12;
+}
+
+header h1 a:visited{
+    background-color: #2246a8;
+    color: #eebb12;
+}
+
+header h1 a:hover{
+    background-color: #2246a8;
+    color: #ffffff;
+}
+
+article header{
+    border: none;
+    background-color: transparent;
+    padding: 20px 0px 0px 25px;
+    height: auto;
+}
+
+nav{
+    margin: 25px 10px 0px 25px;
+    float: right;
+}
+
+ul#menuList{
+    padding-bottom: 24px;
+    list-style-type: none;
+    margin: 0px;
+
+}
+
+ul#menuList li {
+    margin: 0px 2px;
+    float: left;
+    height: 24px;
+}
+
+#menuList a{
+    padding: 5px 15px 5px 15px;
+    display: block;
+    float: left;
+    text-decoration: none;
+}
+
+#contenido{
+    padding: 20px 10px 0px 10px;
+    width: 65%;
+    float: left;
+}
+
+#contenido h2{
+    font-size: 24px;
+    color: #ff6ebf;
+    background-color: #ffffff;
+}
+
+#contenido article{
+    border-bottom: 2px solid #eeeeee;
+}
+
+blockquote{
+    padding: 10px;
+    color: #58819f;
+    border: 1px solid #bff10c;
+    background-color: #2246a8;
+}
+
